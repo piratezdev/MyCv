@@ -105,8 +105,9 @@ footer{margin-top:18px;color:var(--muted);text-align:center;font-size:13px}
 /* Responsive */
 @media (min-width:900px){
   main{grid-template-columns: 1fr 360px;}
-  .experience{grid-column:1 / 2}
-  .skills,.education,.projects,.certifications,.languages,.references,.summary{grid-column:2 / 3}
+  .summary{grid-column:1 / 2}
+  .experience,.education,.projects,.certifications{grid-column: 1 / 3}
+  .skills,.languages,.references
   .hero{align-items:flex-start}
   .contact{align-items:center}
 }
