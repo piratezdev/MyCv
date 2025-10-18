@@ -11,7 +11,7 @@ function applyTheme(theme){
     document.documentElement.style.setProperty('--card', '#ffffff');
     document.documentElement.style.setProperty('--muted', '#475569');
     document.documentElement.style.setProperty('--accent', '#0369a1');
-    document.documentElement.style.color = '#0b1320';
+    document.body.style.color='#0b1320';
     themeToggle.textContent = '☀️';
   } else {
     // default dark
@@ -19,7 +19,7 @@ function applyTheme(theme){
     document.documentElement.style.setProperty('--card', '#0f1720');
     document.documentElement.style.setProperty('--muted', '#9aa3ad');
     document.documentElement.style.setProperty('--accent', '#7dd3fc');
-    document.documentElement.style.color = '#e6eef6';
+    document.body.style.color = '#bed5ecff';
     themeToggle.textContent = '🌙';
   }
 }
