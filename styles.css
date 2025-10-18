@@ -107,7 +107,7 @@ footer{margin-top:18px;color:var(--muted);text-align:center;font-size:13px}
   main{grid-template-columns: 1fr 360px;}
   .summary{grid-column:1 / 2}
   .experience,.education,.projects,.certifications{grid-column: 1 / 3}
-  .skills,.languages,.references
+  .languages,.references
   .hero{align-items:flex-start}
   .contact{align-items:center}
 }
